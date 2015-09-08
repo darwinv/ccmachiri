@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang = "es">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Consejo Comunal Machiri</title>
+	<meta name="author" content="Guareber" />
+	<meta name="description" content="Comunidad Social para el Crecimiento" />
+	<meta name="keywords"  content="comunidad ambiente social" />
+	<meta name="Resource-type" content="Document text" />
+
+ 
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <link href="css/pages.css" rel='stylesheet' type='text/css' /> 
+
+	 
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    
+    
+
+</head>
+<body>
+	<div class="container-fluid" >
+    <div class="row" >
+        <ul id="menu">
+            <li class="" >
+            <a href="#primera">Primera Seccion</a>	
+            </li> 
+            <li>
+            <a href="#segunda">Segunda Seccion</a>	
+            </li>
+             <li>
+            <a href="#tercera">Tercera Seccion</a>	
+            </li>
+            <li>
+            <a href="#cuarta">Cuarta Seccion</a>	
+            </li>
+        </ul>
+        
+        <div id="fullpage">
+            <div class="section active"  id="section0"> 
+              
+                 
+            
+                  
+                    <div class="col-cot2  col-xs-12 col-sm-5 col-md-5 col-lg-4 col-lg-offset-6 col-sm-offset-5 ">
+                        
+                            <div class='title-plan'><h2>Constancia de Residencia</h2>
+                            </div>
+                            
+                            <div class='cont-plan'>Aca Podras Imprimir tu Constancia de residencia, solo debes introducir tu Cedula de identidad, en caso de no estar sensado, llena tus datos a mano y dirigete al Consejo Comunal Respectivo
+                            </div>
+                
+                            <div class='footer-plan'>
+                              <div >
+                            	<input style="text-align:center" class=" form-control  " type='text' placeholder="Tu Cedula"> 
+                              </div>
+                                <div> 
+                                <a href="verificarPlan.php">                             
+                            	<input type='button' value='check' class='    bt'></a> 
+                               </div>
+                            </div>
+                    </div>
+                     
+                
+                 
+                <div class="clearfix"> </div>
+                
+                     
+           
+            </div>
+            <div class="section" id="section1">
+                <div class="slide "><h1>Simple Demo</h1></div>
+                <div class="slide active"><h1>Only text</h1></div>
+                <div class="slide"><h1>And text</h1></div>
+                <div class="slide"><h1>And more text</h1></div>
+            </div>
+            <div class="section" id="section2"><h1>No wraps, no extra markup</h1></div>
+            <div class="section" id="section3"><h1>Just the simplest demo ever</h1>	</div>
+            
+        <div class="section fp-auto-height"> <footer> Derechos Reservados &copy; 2015 </footer> </div>
+        </div>
+        </div>
+   </div>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+     <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+	 
+
+	 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['primera', 'segunda','tercera','cuarta','footer']
+			});
+		});
+	</script>	
+</body>
+</html> 
