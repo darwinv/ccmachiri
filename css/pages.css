@@ -58,3 +58,35 @@
     -moz-box-shadow: 0vw 0vw 2vw #000000;
     box-shadow: 0vw 0vw 2vw #000000;
 }
+
+/********MOVIL****/
+@media (max-width: 768px) {
+	body{
+	  padding-top: 50px !important;
+	}
+	.navbar-default {
+	  background-color: #f8f8f8 !important;
+	  border-color: #e7e7e7 !important;
+	}
+	 
+} 
+
+/**********************/
+/********MOVIL****/
+@media (min-width: 768px) {
+	.section{
+		padding-top: 60px !important;
+	}
+	#menu {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		height: 40px;
+		z-index: 70;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+/**********************/
