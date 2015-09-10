@@ -64,28 +64,31 @@
 	body{
 	  padding-top: 50px !important;
 	}
-	.navbar-default {
+	
+	.navbar-default {   /*** CODIGO DE BOOTSTRAP * ONLY FOR PHONE**/
 	  background-color: #f8f8f8 !important;
 	  border-color: #e7e7e7 !important;
-	}
-	 
+	} 
 } 
-
-/**********************/
-/********MOVIL****/
+	.container-fluid {	/*** CODIGO DE BOOTSTRAP *	DELETED FOR THIS PAGES**/
+		/*  padding-right: 15px;
+  		padding-left: 15px;*/
+	}
+	
+	
+ 
+/********DESKOT****/
 @media (min-width: 768px) {
 	.section{
 		padding-top: 60px !important;
 	}
-	#menu {
-		position: fixed;
-		top: 0px;
-		left: 0px;
+	#menu{			/*** CODIGO DE examples * ONLY FOR DESTOK**/
+		position:fixed;
 		height: 40px;
-		z-index: 70;
-		width: 100%;
-		padding: 0px;
-		margin: 0px;
+	 
+	}
+	#menu li {  	/*** CODIGO DE examples * ONLY FOR DESTOK**/
+		 display:inline-block; 
 	}
 }
 
