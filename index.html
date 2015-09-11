@@ -108,18 +108,19 @@
    </div>
    <script src="js/jquery-1.9.1.min.js"></script>
     
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+     
      <!-- Latest compiled and minified JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-	 
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
 	 
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-				anchors: ['primera', 'segunda','tercera','cuarta','footer']
+				anchors: ['primera', 'segunda','tercera','cuarta','footer'],
+				scrollOverflow: true
 			});
 		});
 	</script>	
