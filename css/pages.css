@@ -18,3 +18,5 @@
 #menu li a, #menu li.active a{padding:9px 18px;display:block;}
 #menu li a{text-decoration:none;color:#000;}
 .section{text-align:center;}
+#section2{ background-image: url('../images/la-comuna-poder-popular.jpg');background-repeat: no-repeat;
+ background-position: center;}
